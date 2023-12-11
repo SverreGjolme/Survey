@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Survey Form</title>
+</head>
+
+<body>
+
+    <!-- Header med overskrift og en kort beskrivelse -->
+    <header>
+        <h1 id="title">freeCodeCamp Survey Form</h1>
+        <p id="description">Thank you for taking the time to help us improve the platform</p>
+    </header>
+
+    <!-- Form-elementet begynner her -->
+    <form id="survey-form">
+        
+        <!-- 1.fieldset: Name, email, age, dropdown-menu -->
+        <fieldset class="flex-container">
+            <label for="name" id="name-label">Name</label>
+            <input id="name" type="text" placeholder="Enter your name" required>
+            
+            <label for="email" id="email-label">Email</label>
+            <input id="email" type="email" placeholder="Enter your Email" required>
+            
+            <label for="number" id="number-label">Age (optional)</label>
+            <input id="number" type="number" min="18" max="120" placeholder="Age">
+
+            <label for="dropdown">Which option best describes your current role?</label>
+            <select id="dropdown">
+              <option value="">Select current role</option>
+              <option value="1">Student</option>
+              <option value="2">Full Time Job</option>
+              <option value="3">Full Time Learner</option>
+              <option value="4">Prefer not to say</option>
+              <option value="5">Other</option>
+            </select>
+        </fieldset>
+
+
+        
+        <!--Inside the form element, you can select an option from a group 
+            of at least two radio buttons that are grouped using the name attribute-->
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </form>
+    
+</body>
+</html>
